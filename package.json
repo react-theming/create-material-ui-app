@@ -17,9 +17,12 @@
     "build-storybook": "build-storybook -s public"
   },
   "devDependencies": {
-    "@storybook/addons": "@alpha",
-    "@storybook/react": "@alpha",
-    "babel-core": "^6.26.3",
+    "@storybook/addon-actions": "4.0.0-alpha.21",
+    "@storybook/addon-links": "4.0.0-alpha.21",
+    "@storybook/addons": "4.0.0-alpha.21",
+    "@storybook/react": "4.0.0-alpha.21",
+    "@babel/core": "^7.0.0",
+    "babel-loader": "^8.0.2",
     "storybook-addon-material-ui": "@next"
   }
 }
