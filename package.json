@@ -1,11 +1,11 @@
 {
   "name": "create-material-ui-app",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^1.3.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "@material-ui/core": "^3.0.3",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -17,12 +17,12 @@
     "build-storybook": "build-storybook -s public"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0",
     "@storybook/addon-actions": "4.0.0-alpha.21",
     "@storybook/addon-links": "4.0.0-alpha.21",
     "@storybook/addons": "4.0.0-alpha.21",
     "@storybook/react": "4.0.0-alpha.21",
-    "@babel/core": "^7.0.0",
     "babel-loader": "^8.0.2",
-    "storybook-addon-material-ui": "@next"
+    "storybook-addon-material-ui": "0.9.0-alpha.14"
   }
 }
