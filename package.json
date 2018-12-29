@@ -13,16 +13,16 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
+    "storybook": "start-storybook -p 9001 -s public",
     "build-storybook": "build-storybook -s public"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "@storybook/addon-actions": "4.0.0-alpha.21",
-    "@storybook/addon-links": "4.0.0-alpha.21",
-    "@storybook/addons": "4.0.0-alpha.21",
-    "@storybook/react": "4.0.0-alpha.21",
+    "@storybook/addon-actions": "4.0.9",
+    "@storybook/addon-links": "4.0.9",
+    "@storybook/addons": "4.0.9",
+    "@storybook/react": "4.0.9",
     "babel-loader": "^8.0.2",
-    "storybook-addon-material-ui": "0.9.0-alpha.14"
+    "storybook-addon-material-ui": "0.9.0-alpha.16"
   }
 }
