@@ -7,6 +7,7 @@ exports[`Storyshots Button Contained Buttons 1`] = `
   >
     <div
       className="MuiCardMedia-root-536 Component-media-635"
+      src={undefined}
       style={
         Object {
           "backgroundImage": "url(\\"https://source.unsplash.com/800x400?cities,nature\\")",
@@ -18,27 +19,27 @@ exports[`Storyshots Button Contained Buttons 1`] = `
       className="MuiCardContent-root-573"
     >
       <h2
-        className="MuiTypography-root-538 MuiTypography-headline-543 MuiTypography-gutterBottom-565"
+        className="MuiTypography-root-538 MuiTypography-h5-554 MuiTypography-gutterBottom-565"
       >
         How to use Storybook
       </h2>
       <p
-        className="MuiTypography-root-538 MuiTypography-body1-547"
+        className="MuiTypography-root-538 MuiTypography-body2-546"
       >
         $ yarn storybook # to launch Storybook
       </p>
       <p
-        className="MuiTypography-root-538 MuiTypography-body1-547"
+        className="MuiTypography-root-538 MuiTypography-body2-546"
       >
         Select the story from the left panel
       </p>
       <p
-        className="MuiTypography-root-538 MuiTypography-body1-547"
+        className="MuiTypography-root-538 MuiTypography-body2-546"
       >
         Ctrl-Shift-F to toggle Fullscreen mode
       </p>
       <p
-        className="MuiTypography-root-538 MuiTypography-body1-547"
+        className="MuiTypography-root-538 MuiTypography-body2-546"
       >
         Select the theme from Material-UI addon panel dropdown
       </p>
@@ -159,6 +160,7 @@ exports[`Storyshots Button Outlined Buttons 1`] = `
   >
     <div
       className="MuiCardMedia-root-322 Component-media-421"
+      src={undefined}
       style={
         Object {
           "backgroundImage": "url(\\"https://source.unsplash.com/800x400?cities,nature\\")",
@@ -170,27 +172,27 @@ exports[`Storyshots Button Outlined Buttons 1`] = `
       className="MuiCardContent-root-359"
     >
       <h2
-        className="MuiTypography-root-324 MuiTypography-headline-329 MuiTypography-gutterBottom-351"
+        className="MuiTypography-root-324 MuiTypography-h5-340 MuiTypography-gutterBottom-351"
       >
         How to use Storybook
       </h2>
       <p
-        className="MuiTypography-root-324 MuiTypography-body1-333"
+        className="MuiTypography-root-324 MuiTypography-body2-332"
       >
         $ yarn storybook # to launch Storybook
       </p>
       <p
-        className="MuiTypography-root-324 MuiTypography-body1-333"
+        className="MuiTypography-root-324 MuiTypography-body2-332"
       >
         Select the story from the left panel
       </p>
       <p
-        className="MuiTypography-root-324 MuiTypography-body1-333"
+        className="MuiTypography-root-324 MuiTypography-body2-332"
       >
         Ctrl-Shift-F to toggle Fullscreen mode
       </p>
       <p
-        className="MuiTypography-root-324 MuiTypography-body1-333"
+        className="MuiTypography-root-324 MuiTypography-body2-332"
       >
         Select the theme from Material-UI addon panel dropdown
       </p>
@@ -311,6 +313,7 @@ exports[`Storyshots Button Text Buttons 1`] = `
   >
     <div
       className="MuiCardMedia-root-108 Component-media-207"
+      src={undefined}
       style={
         Object {
           "backgroundImage": "url(\\"https://source.unsplash.com/800x400?cities,nature\\")",
@@ -322,27 +325,27 @@ exports[`Storyshots Button Text Buttons 1`] = `
       className="MuiCardContent-root-145"
     >
       <h2
-        className="MuiTypography-root-110 MuiTypography-headline-115 MuiTypography-gutterBottom-137"
+        className="MuiTypography-root-110 MuiTypography-h5-126 MuiTypography-gutterBottom-137"
       >
         How to use Storybook
       </h2>
       <p
-        className="MuiTypography-root-110 MuiTypography-body1-119"
+        className="MuiTypography-root-110 MuiTypography-body2-118"
       >
         $ yarn storybook # to launch Storybook
       </p>
       <p
-        className="MuiTypography-root-110 MuiTypography-body1-119"
+        className="MuiTypography-root-110 MuiTypography-body2-118"
       >
         Select the story from the left panel
       </p>
       <p
-        className="MuiTypography-root-110 MuiTypography-body1-119"
+        className="MuiTypography-root-110 MuiTypography-body2-118"
       >
         Ctrl-Shift-F to toggle Fullscreen mode
       </p>
       <p
-        className="MuiTypography-root-110 MuiTypography-body1-119"
+        className="MuiTypography-root-110 MuiTypography-body2-118"
       >
         Select the theme from Material-UI addon panel dropdown
       </p>
