@@ -1,0 +1,457 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Contained Buttons 1`] = `
+<div>
+  <div
+    className="MuiPaper-root-606 MuiPaper-elevation1-609 MuiPaper-rounded-607 MuiCard-root-633 Component-card-634"
+  >
+    <div
+      className="MuiCardMedia-root-536 Component-media-635"
+      style={
+        Object {
+          "backgroundImage": "url(\\"https://source.unsplash.com/800x400?cities,nature\\")",
+        }
+      }
+      title="Contemplative Reptile"
+    />
+    <div
+      className="MuiCardContent-root-573"
+    >
+      <h2
+        className="MuiTypography-root-538 MuiTypography-headline-543 MuiTypography-gutterBottom-565"
+      >
+        How to use Storybook
+      </h2>
+      <p
+        className="MuiTypography-root-538 MuiTypography-body1-547"
+      >
+        $ yarn storybook # to launch Storybook
+      </p>
+      <p
+        className="MuiTypography-root-538 MuiTypography-body1-547"
+      >
+        Select the story from the left panel
+      </p>
+      <p
+        className="MuiTypography-root-538 MuiTypography-body1-547"
+      >
+        Ctrl-Shift-F to toggle Fullscreen mode
+      </p>
+      <p
+        className="MuiTypography-root-538 MuiTypography-body1-547"
+      >
+        Select the theme from Material-UI addon panel dropdown
+      </p>
+    </div>
+    <div
+      className="MuiCardActions-root-603"
+    >
+      <button
+        className="MuiButtonBase-root-574 MuiButton-root-577 MuiButton-contained-588 MuiButton-raised-591 MuiButton-sizeSmall-600 MuiCardActions-action-605"
+        disabled={false}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-578"
+        >
+          Default
+        </span>
+        <span
+          className="MuiTouchRipple-root-636"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-574 MuiButton-root-577 MuiButton-contained-588 MuiButton-containedPrimary-589 MuiButton-raised-591 MuiButton-raisedPrimary-592 MuiButton-sizeSmall-600 MuiCardActions-action-605"
+        disabled={false}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-578"
+        >
+          primary
+        </span>
+        <span
+          className="MuiTouchRipple-root-636"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-574 MuiButton-root-577 MuiButton-contained-588 MuiButton-containedSecondary-590 MuiButton-raised-591 MuiButton-raisedSecondary-593 MuiButton-sizeSmall-600 MuiCardActions-action-605"
+        disabled={false}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-578"
+        >
+          secondary
+        </span>
+        <span
+          className="MuiTouchRipple-root-636"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-574 MuiButtonBase-disabled-575 MuiButton-root-577 MuiButton-contained-588 MuiButton-raised-591 MuiButton-sizeSmall-600 MuiButton-disabled-597 MuiCardActions-action-605"
+        disabled={true}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="-1"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-578"
+        >
+          disabled
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button Outlined Buttons 1`] = `
+<div>
+  <div
+    className="MuiPaper-root-392 MuiPaper-elevation1-395 MuiPaper-rounded-393 MuiCard-root-419 Component-card-420"
+  >
+    <div
+      className="MuiCardMedia-root-322 Component-media-421"
+      style={
+        Object {
+          "backgroundImage": "url(\\"https://source.unsplash.com/800x400?cities,nature\\")",
+        }
+      }
+      title="Contemplative Reptile"
+    />
+    <div
+      className="MuiCardContent-root-359"
+    >
+      <h2
+        className="MuiTypography-root-324 MuiTypography-headline-329 MuiTypography-gutterBottom-351"
+      >
+        How to use Storybook
+      </h2>
+      <p
+        className="MuiTypography-root-324 MuiTypography-body1-333"
+      >
+        $ yarn storybook # to launch Storybook
+      </p>
+      <p
+        className="MuiTypography-root-324 MuiTypography-body1-333"
+      >
+        Select the story from the left panel
+      </p>
+      <p
+        className="MuiTypography-root-324 MuiTypography-body1-333"
+      >
+        Ctrl-Shift-F to toggle Fullscreen mode
+      </p>
+      <p
+        className="MuiTypography-root-324 MuiTypography-body1-333"
+      >
+        Select the theme from Material-UI addon panel dropdown
+      </p>
+    </div>
+    <div
+      className="MuiCardActions-root-389"
+    >
+      <button
+        className="MuiButtonBase-root-360 MuiButton-root-363 MuiButton-outlined-371 MuiButton-sizeSmall-386 MuiCardActions-action-391"
+        disabled={false}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-364"
+        >
+          Default
+        </span>
+        <span
+          className="MuiTouchRipple-root-422"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-360 MuiButton-root-363 MuiButton-outlined-371 MuiButton-outlinedPrimary-372 MuiButton-sizeSmall-386 MuiCardActions-action-391"
+        disabled={false}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-364"
+        >
+          primary
+        </span>
+        <span
+          className="MuiTouchRipple-root-422"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-360 MuiButton-root-363 MuiButton-outlined-371 MuiButton-outlinedSecondary-373 MuiButton-sizeSmall-386 MuiCardActions-action-391"
+        disabled={false}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-364"
+        >
+          secondary
+        </span>
+        <span
+          className="MuiTouchRipple-root-422"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-360 MuiButtonBase-disabled-361 MuiButton-root-363 MuiButton-outlined-371 MuiButton-sizeSmall-386 MuiButton-disabled-383 MuiCardActions-action-391"
+        disabled={true}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="-1"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-364"
+        >
+          disabled
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button Text Buttons 1`] = `
+<div>
+  <div
+    className="MuiPaper-root-178 MuiPaper-elevation1-181 MuiPaper-rounded-179 MuiCard-root-205 Component-card-206"
+  >
+    <div
+      className="MuiCardMedia-root-108 Component-media-207"
+      style={
+        Object {
+          "backgroundImage": "url(\\"https://source.unsplash.com/800x400?cities,nature\\")",
+        }
+      }
+      title="Contemplative Reptile"
+    />
+    <div
+      className="MuiCardContent-root-145"
+    >
+      <h2
+        className="MuiTypography-root-110 MuiTypography-headline-115 MuiTypography-gutterBottom-137"
+      >
+        How to use Storybook
+      </h2>
+      <p
+        className="MuiTypography-root-110 MuiTypography-body1-119"
+      >
+        $ yarn storybook # to launch Storybook
+      </p>
+      <p
+        className="MuiTypography-root-110 MuiTypography-body1-119"
+      >
+        Select the story from the left panel
+      </p>
+      <p
+        className="MuiTypography-root-110 MuiTypography-body1-119"
+      >
+        Ctrl-Shift-F to toggle Fullscreen mode
+      </p>
+      <p
+        className="MuiTypography-root-110 MuiTypography-body1-119"
+      >
+        Select the theme from Material-UI addon panel dropdown
+      </p>
+    </div>
+    <div
+      className="MuiCardActions-root-175"
+    >
+      <button
+        className="MuiButtonBase-root-146 MuiButton-root-149 MuiButton-text-151 MuiButton-flat-154 MuiButton-sizeSmall-172 MuiCardActions-action-177"
+        disabled={false}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-150"
+        >
+          Default
+        </span>
+        <span
+          className="MuiTouchRipple-root-208"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-146 MuiButton-root-149 MuiButton-text-151 MuiButton-textPrimary-152 MuiButton-flat-154 MuiButton-flatPrimary-155 MuiButton-sizeSmall-172 MuiCardActions-action-177"
+        disabled={false}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-150"
+        >
+          primary
+        </span>
+        <span
+          className="MuiTouchRipple-root-208"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-146 MuiButton-root-149 MuiButton-text-151 MuiButton-textSecondary-153 MuiButton-flat-154 MuiButton-flatSecondary-156 MuiButton-sizeSmall-172 MuiCardActions-action-177"
+        disabled={false}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-150"
+        >
+          secondary
+        </span>
+        <span
+          className="MuiTouchRipple-root-208"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-146 MuiButtonBase-disabled-147 MuiButton-root-149 MuiButton-text-151 MuiButton-flat-154 MuiButton-sizeSmall-172 MuiButton-disabled-169 MuiCardActions-action-177"
+        disabled={true}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="-1"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-150"
+        >
+          disabled
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
