@@ -1,11 +1,11 @@
 # Create Material-UI App
 
-Material-UI boilerplate with:
+CRA & Material-UI based boilerplate with:
 
-- `@material-ui/core` v1
-- `react-scripts` (core of CRA)
-- `@storybook/react` v3/v4
-- `storybook-addon-material-ui` @next
+- `@material-ui/core`
+- `react-scripts`
+- `@storybook/react`
+- `storybook-addon-material-ui`
 
 ## How to use
 
@@ -26,15 +26,6 @@ Create your app as an usual CRA app.
 ## Notes about this boilerplate
 
 Create Material-UI App is built on top of [Create React App](https://github.com/facebook/create-react-app), which means all features that create-react-app supports are available.
-You can reproduce these steps to create everything from scratch or choose some of them to add needed tools to your existing project:
-
-- `create-react-app` to create a project base
-- `getstorybook` to add a storybook to your CRA project
-- `yarn add --dev storybook-addon-material-ui@next` to add material-ui addon
-- `yarn add @material-ui/core` - install material-ui v1.xx
-- add `import 'storybook-addon-material-ui/register'` to `.storybook/addons.js`
-- add `import { muiTheme } from 'storybook-addon-material-ui';` to `src/stories/index.js`
-- add `.addDecorator(muiTheme())` to `src/stories/index.js`
 
 We recommend sticking with this boilerplate for new projects since we trying to keep here the newest stable configuration.
 
@@ -44,9 +35,11 @@ Any feature requests, issues, PRs to this project are very welcome!
 
 #### Credits
 
-[telegram:@usulpro](https://t.me/usulpro) <small>(The quickest way to contact me :zap:)</small>
+[telegram:@usulpro](https://t.me/usulpro)
 
 [![@UsulPro](https://img.shields.io/badge/github-UsulPro-blue.svg)](https://github.com/UsulPro)
 
 [![@react-theming](https://img.shields.io/badge/github-React%20Theming-red.svg)](https://github.com/react-theming)
+
+**anonymous [survey](https://app.qpointsurvey.com/s.aspx?c=F2VOSpTXOlnHHqMaZKSSV5a1ylaCDoRfhut3oNCox34~) to collect feedback about this project**
 
