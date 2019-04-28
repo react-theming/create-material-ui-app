@@ -1,20 +1,15 @@
 import React from 'react';
 
 import { storiesOf } from '@storybook/react';
-// import { action } from '@storybook/addon-actions';
-// import { linkTo } from '@storybook/addon-links';
+import { muiTheme } from 'storybook-addon-material-ui';
 
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import Paper from '@material-ui/core/Paper';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
-import { muiTheme } from 'storybook-addon-material-ui';
-
-// storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
 const action = msg => () => console.log(msg);
 
@@ -55,16 +50,31 @@ const MaterialComponent = withStyles(
       </Typography>
     </CardContent>
     <CardActions>
-      <Button size="small" variant={variant}>
+      <Button size="small" variant={variant} onClick={action('Default')}>
         Default
       </Button>
-      <Button size="small" color="primary" variant={variant}>
+      <Button
+        size="small"
+        color="primary"
+        variant={variant}
+        onClick={action('primary')}
+      >
         primary
       </Button>
-      <Button size="small" color="secondary" variant={variant}>
+      <Button
+        size="small"
+        color="secondary"
+        variant={variant}
+        onClick={action('secondary')}
+      >
         secondary
       </Button>
-      <Button size="small" disabled variant={variant}>
+      <Button
+        size="small"
+        disabled
+        variant={variant}
+        onClick={action('disabled')}
+      >
         disabled
       </Button>
     </CardActions>
@@ -73,6 +83,6 @@ const MaterialComponent = withStyles(
 
 storiesOf('Button', module)
   .addDecorator(muiTheme())
-  .add('Text Buttons', () => <MaterialComponent/>)
+  .add('Text Buttons', () => <MaterialComponent />)
   .add('Outlined Buttons', () => <MaterialComponent variant="outlined" />)
-  .add('Contained Buttons', () => <MaterialComponent variant="contained" />)
+  .add('Contained Buttons', () => <MaterialComponent variant="contained" />);

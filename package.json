@@ -1,37 +1,44 @@
 {
   "name": "create-material-ui-app",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^3.8.2",
-    "prop-types": "^15.6.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "1.1.5"
+    "@material-ui/core": "^3.9.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9001 -s public --ci",
-    "build-storybook": "build-storybook -s public"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@storybook/addon-actions": "4.0.12",
-    "@storybook/addon-links": "4.0.12",
-    "@storybook/addon-storyshots": "4.0.12",
-    "@storybook/addons": "4.0.12",
-    "@storybook/react": "4.0.12",
-    "react-test-renderer": "^16.7.0",
-    "storybook-addon-material-ui": "0.9.0-alpha.17",
-    "babel-loader": "8.0.4"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "@babel/core": "^7.4.4",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addons": "^5.0.11",
+    "@storybook/react": "^5.0.11",
+    "babel-loader": "^8.0.5",
+    "storybook-addon-material-ui": "0.9.0-alpha.18"
+  }
 }
+
